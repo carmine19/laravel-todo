@@ -18,6 +18,11 @@
                             <input type="text" class="form-control" name="task_description">
                         </div>
 
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Data</label>
+                            <input type="date" class="form-control" name="notify">
+                        </div>
+
                         <button type="submit" class="btn btn-primary mt-5">Salva</button>
                     </form>
                 </div>

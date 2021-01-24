@@ -17,6 +17,7 @@ class CreateTodosTable extends Migration
             $table->id();
             $table->string('task_name', 30);
             $table->string('task_description', 255);
+            $table->date('notify');
             $table->timestamps();
         });
     }

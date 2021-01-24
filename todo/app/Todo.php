@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Todo extends Model
 {
-    protected $fillable = ['task_name', 'task_description'];
+    protected $fillable = ['task_name', 'task_description','notify'];
 }

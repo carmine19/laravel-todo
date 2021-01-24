@@ -16,6 +16,7 @@
                                 <th scope="col">Id</th>
                                 <th scope="col">Nome</th>
                                 <th scope="col">Descizione</th>
+                                <th scope="col">Notifica</th>
                                 <th scope="col"></th>
                                 <th scope="col"></th>
                             </tr>
@@ -26,6 +27,7 @@
                                 <td>{{$todo->id}}</td>
                                 <td>{{$todo->task_name}}</td>
                                 <td>{{$todo->task_description}}</td>
+                                <td>{{$todo->notify}}</td>
                                 <td>
                                     <a href="{{ route('todos.edit', ['todo' => $todo->id ]) }}"
                                         class="btn btn-warning">
